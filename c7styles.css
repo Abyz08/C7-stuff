@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+html {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 100%;
+    background:
+        repeating-linear-gradient(45deg, #efefef 0 20px, #fff 0 40px) 0 0/calc(40px*sqrt(2)) calc(40px*sqrt(2))
+}
+
+
+.titlecard {
+    background-color: #0000;
+    background-size: 100% 100%;
+    height: 150px;
+
+    .title {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-size: 50px;
+        font-style: normal;
+        text-align: center;
+        line-height: 150px;
+        filter: drop-shadow(5px 5px 1.35rem white);
+    }
+}
+.box {
+    position: relative;
+    margin-bottom: 30px;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+    width: 90vw;
+    height:calc(fit-content+ 10px);
+    margin-left:5%;
+    border: #000 3px solid;
+    background-color:#000;
+    .subtitle {
+            height: 35px;
+    
+            .titletext {
+                text-align: center;
+                font-family: "Lexend", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                color:#ddd;
+                font-size: 25px;
+                font-style: normal;
+    
+            }
+        }
+    
+        .content {
+    
+            height: max-content;
+            background-position: calc();
+            text-align: center;
+            font-family: "Lexend", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            color: #ddd;
+            font-size: 15px;
+            font-style: normal;
+        }
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    background: conic-gradient(from 90deg at 40% -25%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
+    filter: blur(20px);
+    transform: translate3d(-27px, 27px, -1px);
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+
+.method {
+    height: max-content;
+    margin-left:5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color:#ddd;
+    font-size: 15px;
+    font-style: normal;
+}
+.equipment {
+    height: max-content;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: #ddd;
+    font-size: 15px;
+    font-style: normal;
+}
+.variables {
+    height: max-content;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: #ddd;
+    font-size: 15px;
+    font-style: normal;
+}
