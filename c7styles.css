@@ -35,6 +35,7 @@ html {
     margin-left:5%;
     border: #000 3px solid;
     background-color:#000;
+    transition: transform 0.25s ease-in-out;
     .subtitle {
             height: 35px;
     
@@ -63,7 +64,9 @@ html {
             font-style: normal;
         }
 }
-
+.box:active {
+    transform: scale(1.5);
+}
 .box::before {
     content: "";
     position: absolute;
