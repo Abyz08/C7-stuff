@@ -68,6 +68,9 @@ html {
 .box:active {
     transform: scale(1.2);
 }
+.box:hover {
+    transform: scale(1.2);
+}
 .box::before {
     content: "";
     position: absolute;
